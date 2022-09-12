@@ -94,6 +94,7 @@ export const getStaticProps = async (props: staticProps) => {
       },
       //morePosts: data['morePosts'] || [],
     },
+    revalidate: 10,
   }
 }
 
