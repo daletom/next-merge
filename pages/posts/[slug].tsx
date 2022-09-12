@@ -106,7 +106,7 @@ const Post = (props: PostProps) => {
                    />
                   <meta
                     property="og:image"
-                    content={post.metadata.cover_image.imgix_url + `?w=1200`}
+                    content={"https://cosmicjs.imgix.net/ccd3a770-2e39-11ed-9dcf-4f97d8f41281-Screen-Shot-2022-09-06-at-4.15.20-PM.png?blend-align=bottom&blend-mode=normal&blend64=aHR0cHM6Ly90b20uaW1naXgubmV0LzF4MV9tb3RpZi5wbmc_dz0xMjAwJmg9NzUmYmc9ZmZmJmZpdD1jcm9w&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0LzF4MV9tb3RpZi5wbmc_bWFyay1wYWQ9LTImZml0PWNyb3AmaD02MzAmdz0xMjAwJm1hcms2ND1hSFIwY0hNNkx5OXBlQzEzZDNjdWFXMW5hWGd1Ym1WMEwzQnlaWE56TDJsdFoybDRMWEJ5WlhOekxXdHBkQzV3WkdZX2NHRm5aVDB6Sm1adFBYQnVaeVpvUFRjdyZtYXJrLWFsaWduPWJvdHRvbSUyQ2NlbnRlciZibGVuZDY0PWFIUjBjSE02THk5MGIyMHVhVzFuYVhndWJtVjBMMmR5WVdScFpXNTBMbkJ1Wno5M1BURXlNREFtYUQwMk16QW1abWwwUFdOeWIzQQ&crop=faces%2Cedges&fit=crop&h=630&w=1200&mark-align=bottom%2Ccenter&txt64=TXkgVGl0bGUgSGVyZQ&txt-size=72&txt-align=top%2Cleft&txt-pad=10&txt-line=1&txt-line-color=black&txt-color=white"}
                   />
                 </Head>
                 <PostHeader
